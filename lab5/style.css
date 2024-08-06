@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+/* Header styling */
+header {
+    background-color: #125784; /* Blue color for the header background */
+    padding: 10px 20px;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out items horizontally */
+}
+
+.logo {
+    height: 50px; /* Adjust based on your logo size */
+}
+
+nav {
+    display: flex;
+    gap: 20px; /* Space between navigation links */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
+    font-size: 16px;
+}
+
+.search-bar {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+.title-container{
+    background-color: #e57f16;
+}
+.title-container h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #5e35b1;
+  
+}
+
+.title-container p {
+    color: #333;
+  
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1fr 1fr 1 fr;
+}
+
+.image img {
+    max-width: 60%;
+    height: auto;
+}
+
+.form-container {
+    margin-top: 20px;
+    background-color: #5e35b1;
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-container button {
+    padding: 10px 15px;
+    background-color: #f57f17;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #e57f16;
+}
+
+footer {
+    background-color: hsl(180, 5%, 4%);
+    color: white;
+}
+
+footer p {
+    margin: 10px 0;
+}
